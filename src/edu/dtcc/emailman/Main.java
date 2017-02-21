@@ -57,12 +57,13 @@ public class Main {
 }
 
 class CourseSection {
+    // Attributes
     private String course;
     private int section;
     private int numOfStudents;
 
+    // Static constant
     static final int MAX_STUDENTS = 18;
-
 
     CourseSection(String myCourse, int mySection, int myNumOfStudents) {
         course = myCourse;
