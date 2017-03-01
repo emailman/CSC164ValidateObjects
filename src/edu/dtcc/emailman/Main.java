@@ -28,7 +28,6 @@ public class Main {
 
                 input.nextLine(); // make sure the input buffer is empty
             }
-
         } while (!id.equals(""));
 
         System.out.println("\nList of course sections:");
